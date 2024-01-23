@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    },
+    {
+      "id": 2,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    },
+    {
+      "id": 3,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    },
+    {
+      "id": 4,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    },
+    {
+      "id": 5,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    },
+    {
+      "id": 6,
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 529,
+      "brand": "apple",
+      "image": "/home/minmini/Documents/shopping-cart/shopping-cart-app/src/images/appleimg.jpeg"
+    }
+  ]
+}
