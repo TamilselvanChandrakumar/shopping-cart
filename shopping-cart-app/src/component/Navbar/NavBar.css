@@ -1,0 +1,39 @@
+.navbarcontainer {
+  width: 100vw;
+  height: 4rem;
+  background-color: rgb(255, 244, 244);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.logo > img {
+  width: 3rem;
+}
+.navinner {
+  width: 70%;
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carticon {
+  position: relative;
+  cursor: pointer;
+}
+.productcount {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.7rem;
+  top: -10px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
