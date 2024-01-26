@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({ showCart, setShowCart, productCounter, reRender }) => {
+  useEffect(() => {}, [reRender]);
   return (
     <div className="navbarcontainer">
       <div className="navinner">
@@ -13,9 +14,9 @@ const NavBar = () => {
           ></img>
         </div>
       </div>
-      <div className="carticon">
+      <div className="carticon" onClick={() => setShowCart(!showCart)}>
         <FiShoppingCart size={25}></FiShoppingCart>
-        <div className="productcount">2</div>
+        <div className="productcount">{productCounter}</div>
       </div>
     </div>
   );
