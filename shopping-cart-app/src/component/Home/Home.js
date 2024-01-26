@@ -40,7 +40,7 @@ const Home = ({ addToCart }) => {
                       onClick={() =>
                         addToCart(
                           products.brand,
-                          products.imgage,
+                          products.image,
                           products.id,
                           products.price,
                           index
