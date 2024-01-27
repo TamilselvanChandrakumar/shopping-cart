@@ -41,10 +41,9 @@
   gap: 3px;
 }
 .cartitem > img {
-  border: 1px solid grey;
   width: 7rem;
   height: 4rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 .itemprice {
   margin-top: 5px;
