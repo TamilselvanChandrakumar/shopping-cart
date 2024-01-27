@@ -19,6 +19,7 @@ const Home = ({ addToCart }) => {
   useEffect(() => {
     fetchData();
   }, []);
+  console.log(productsData);
   return (
     <div className="homecontainer">
       <div className="productscontainer"></div>
@@ -26,7 +27,7 @@ const Home = ({ addToCart }) => {
         {Array.isArray(productsData) &&
           productsData.map((products, index) => {
             return (
-              <div className="product" key={products.id}>
+              <div className="product" key={index}>
                 <div className="productimage">
                   <img src={products.image} alt=""></img>
                 </div>
@@ -39,10 +40,10 @@ const Home = ({ addToCart }) => {
                       className="add"
                       onClick={() =>
                         addToCart(
-                          products.brand,
-                          products.image,
                           products.id,
                           products.price,
+                          products.brand,
+                          products.image,
                           index
                         )
                       }

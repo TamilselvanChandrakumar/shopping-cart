@@ -11,9 +11,10 @@ function App() {
   const handleRender = () => {
     setReRender(!reRender);
   };
-  const addToCart = (brand, image, price, id, index) => {
+  const addToCart = (id, price, brand, image, index) => {
     if (addProduct.some((product) => product.id === id)) {
       addProduct.splice(index, 1);
+      console.log(addProduct);
     } else {
       setAddProduct([
         ...addProduct,
@@ -25,6 +26,7 @@ function App() {
           qty: 1,
         },
       ]);
+      console.log(addProduct);
     }
   };
   return (

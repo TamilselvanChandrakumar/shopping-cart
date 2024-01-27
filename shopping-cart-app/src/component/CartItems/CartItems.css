@@ -1,5 +1,5 @@
 .cartmain {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: fixed;
   right: 0;
   top: 4rem;
@@ -10,18 +10,18 @@
   transition: 0.5 ease-in-out;
 }
 .cartcontainer {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 20rem;
   max-height: 33rem;
   height: 100%;
   overflow-y: auto;
 }
 .cartinner {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   padding: 1rem;
 }
 .cartitems {
-  border: 1px solid goldenrod;
+  /* border: 1px solid goldenrod; */
   display: flex;
   flex-direction: column;
   gap: 15px 15px;

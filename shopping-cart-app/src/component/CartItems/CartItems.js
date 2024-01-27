@@ -59,7 +59,7 @@ const CartItems = ({ showCart, addProduct, reRender, handleRender }) => {
               {addProduct.length !== 0 &&
                 addProduct.map((product, index) => {
                   return (
-                    <div className="cartitem">
+                    <div className="cartitem" key={index}>
                       <img src={product.image} alt=""></img>
                       <div className="cartdetails">
                         <h4>{product.productName}</h4>
